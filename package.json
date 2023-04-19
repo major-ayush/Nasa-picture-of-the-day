@@ -2,7 +2,7 @@
   "name": "nasa-picture-of-the-day",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/major-ayush/tempRepo.git",
+  
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -18,8 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
 
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    
 
   },
   "eslintConfig": {
