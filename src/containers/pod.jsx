@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 
 function PictureOfTheDay(props)
 {
@@ -6,7 +6,7 @@ function PictureOfTheDay(props)
     return (<div className = "pod">
         <div >
         <h2 className='podTitle'>{props.title}</h2>
-        <img src = {props.url} alt = "Picture of the day" className = "image"/>
+        <img src = {props.url} alt = "Nasa POD" className = "image"/>
         </div>
         
     </div>);

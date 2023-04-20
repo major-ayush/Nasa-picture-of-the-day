@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import MyHeader from './containers/header';
 import PictureOfTheDay from './containers/pod';
