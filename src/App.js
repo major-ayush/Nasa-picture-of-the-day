@@ -19,6 +19,11 @@ function App() {
     const [mydate, setdate] = useState(todayDate);
     
     const [doesButtonClicked, setClick] = useState(false);
+    
+    document.onKeyDown = (event) => {
+        if(event.key === "Enter")
+            buttonClickHandeler();
+    }
     async function GetDataFromAPI(inputDate)
     {
         const url = "https://api.nasa.gov/planetary/apod?api_key=f1H5xf6kUU4s8kQAXnPonTtPQ5v93S3SWHYdXvyS&&date=" + inputDate;
