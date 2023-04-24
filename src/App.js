@@ -20,7 +20,7 @@ function App() {
     
     const [doesButtonClicked, setClick] = useState(false);
     
-    document.onKeyDown = (event) => {
+    document.onkeydown = (event) => {
         if(event.key === "Enter")
             buttonClickHandeler();
     }
